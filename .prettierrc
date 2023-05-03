@@ -1,0 +1,39 @@
+{
+"semi":false,
+"useTabs":false,
+"singleQuote":false,
+"jsxSingleQuote":false,
+"bracketSpacing":false,
+"bracketSameLine":false,
+"requirePragma":false,
+"insertPragma":false,
+"vueIndentScriptAndStyle":false,
+"singleAttributePerLine":true,
+"tabWidth":4,
+"printWidth":100,
+"trailingComma":"es5",
+"quoteProps":"as-needed",
+"arrowParens":"always",
+"proseWrap":"preserve",
+"htmlWhitespaceSensitivity":"css",
+"endOfLine":"crlf",
+"embeddedLanguageFormatting":"auto",
+"overrides": [
+{
+"files": "**/lwc/**/*.html",
+"options": { "parser": "lwc" }
+},
+{
+"files": ["*.cmp", "*.component", "*.page", "*.labels"],
+"options": { "parser": "html" }
+},
+{
+"files": "**/aura/**/*.*",
+"options": { "trailingComma": "none" }
+},
+{
+"files": ["*.meta.xml"],
+"options": { "parser": "html" }
+}
+]
+}

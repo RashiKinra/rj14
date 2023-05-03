@@ -1,0 +1,1 @@
+{"extends":["@salesforce/eslint-config-lwc/recommended"],"overrides":[{"files":["*.test.js"],"rules":{"@lwc/lwc/no-unexpected-wire-adapter-usages":"errors","rule3":"warn","rule1":"error"},"env":{"node":true}}]}

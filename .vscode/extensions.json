@@ -1,0 +1,13 @@
+{ 
+    "recommendations": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+    "eamodio.gitlens",
+    "salesforce.salesforcedx-vscode-core",
+    "salesforce.salesforcedx-vscode-expanded",
+    "FinancialForce.lana",
+    "epivision.vscode-file-header" 
+  ] 
+}

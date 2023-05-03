@@ -1,0 +1,17 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  }
+
+,"apexPMD.rulesets": ["./pmd/pmdCustomRules.xml"]
+,"prettier.prettierPath": "./prettierrc",
+"eslint.enable": true,
+"eslint.options": {
+ 
+  "configFile":"sd"
+}
+
+
+}

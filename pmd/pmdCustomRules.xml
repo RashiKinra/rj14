@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> <ruleset xmlns="https://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" name="Default ruleset used by the CodeClimate Engine for Salesforce.com Apex" xsi:schemaLocation="https://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.net/ruleset_2_0_0.xsd"> <description>Default ruleset used by the Code Climate Engine for Salesforce.com Apex</description> <exclude-pattern>.*/.sfdx/.*</exclude-pattern> 
+<rule ref="category/apex/codestyle.xml/ClassNamingConventions" message="Class names should begin with an uppercase character" >
+<priority>3</priority>
+<properties> </properties>
+</rule>
+<rule ref="category/apex/codestyle.xml/MethodNamingConventions" message="Method name does not begin with a lower case character." >
+<priority>3</priority>
+<properties> </properties>
+</rule>
+</ruleset>
